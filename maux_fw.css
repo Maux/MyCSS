@@ -7,8 +7,7 @@ html{
 	font-weight:normal;
 	line-height:1.5em;
 	text-rendering:optimizelegibility;
-	-ms-text-size-adjust:100%;
-	-webkit-text-size-adjust:100%
+	-ms-text-size-adjust:100%
 }
 :focus{outline:0 none}
 ::-moz-focus-inner{border:0 none;padding:0}
@@ -661,7 +660,7 @@ textarea{
 .pba-n{page-break-after:avoid}
 .pbb-a{page-break-before:always}
 .pbb-n{page-break-before:avoid}
-.pbi-a{page-break-inside:always}
+/* .pbi-a{page-break-inside:always} */
 .pbi-n{page-break-inside:avoid}
 /*
 <hr>
@@ -709,8 +708,9 @@ textarea{
 	@page {
 		margin:0.5cm;
 	}
-	p, h2, h3 {orphans: 3;widows: 3}
+	/* p, h2, h3 {orphans: 3;widows: 3} */
 	h2, h3 {page-break-after: avoid}
 }
 /* #OUTROS */
-/**** Maux FrameWork - 2018-NOV-05 - by Maux Webmaster ****/
+/**** Maux FrameWork - 2020-JAN-20 - by Maux Webmaster ****/
+/**** CDN https://gitcdn.link/repo/Maux/MyCSS/master/maux_fw.css ****/
